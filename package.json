@@ -1,0 +1,36 @@
+{
+  "name": "epiclambda",
+  "version": "0.0.10",
+  "description": "lambda comper",
+  "homepage": "http://github.com/slightboy",
+  "keywords": [
+    "epic",
+    "lambda"
+  ],
+  "author": {
+    "name": "slightboy",
+    "email": "node@slightboy.net"
+  },
+  "contributors": [
+    {
+      "name": "slightboy",
+      "email": "node@slightboy.net"
+    }
+  ],
+  "repository": "git://github.com/slightboy/lambda",
+  "dependencies": {},
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "colors": "0.5.1",
+    "istanbul": "^0.3.0",
+    "mocha": "^1.21.0"
+  },
+  "optionalDependencies": {},
+  "main": "lambda",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
