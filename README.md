@@ -6,9 +6,11 @@ node lambda compiler with cache.
 
 ```bash
 $ npm install epiclambda
+```
 
 ```js
 var lambda = require('epiclambda');
+```
 
 ## Usage
 
