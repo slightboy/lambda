@@ -1,5 +1,5 @@
 var assert = require("assert");
-var lambda = require('../lambda.js');
+var lambda = require('../');
 
 
 describe('lambda', function()

@@ -1,4 +1,4 @@
-var lambda = require('../lambda.js');
+var lambda = require('../');
 
 var Benchmark = require('benchmark');
 

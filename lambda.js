@@ -1,4 +1,3 @@
-
 /*
 
 
@@ -204,6 +203,7 @@
 	};
 
 	lambda.version = '0.0.10';
-	module && module.exports && module.exports = lambda;
+	if (module && module.exports)
+		module.exports = lambda;
 	
 })(global || window);
