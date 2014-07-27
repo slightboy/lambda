@@ -1,6 +1,6 @@
-lambda
-======
-node lambda compiler with cache.
+## lambda
+  
+  node lambda compiler with cache.
 
 ## Installation
 
@@ -8,13 +8,13 @@ node lambda compiler with cache.
 $ npm install epiclambda
 ```
 
-```js
-var lambda = require('epiclambda');
-```
-
 ## Usage
 
 Example _basic.js_:
+
+```js
+var lambda = require('epiclambda');
+```
 
 ```js
 var func = lambda('e => e > 1');
@@ -25,7 +25,7 @@ console.log(data.filter(func));
 
 ## With Anonymous Function
 
-You can access the anonymous function using $(Array)
+  You can access the anonymous function using $(Array)
 
 Example _anonymous.js_:
 
